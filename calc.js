@@ -197,8 +197,9 @@ function addperiod() {
 function add0() {
   var x = document.getElementById("screen_interface").innerHTML;
   
-  if (x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "0";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "0";
@@ -212,8 +213,9 @@ function add0() {
 
 function add1() {
   var x = document.getElementById("screen_interface").innerHTML;
-  if ( x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "1";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "1";
@@ -226,8 +228,9 @@ function add1() {
 
 function add2() {
   var x = document.getElementById("screen_interface").innerHTML;
-  if ( x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "2";
+     endop=false;
   }
    else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "2";
@@ -239,8 +242,9 @@ function add2() {
 }
 function add3() {
   var x = document.getElementById("screen_interface").innerHTML; 
-  if ( x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true)|| endop==true) {
      document.getElementById("screen_interface").innerHTML = "3";
+     endop=false;
   }
    else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "3";
@@ -252,8 +256,9 @@ function add3() {
 }
 function add4() {
    var x = document.getElementById("screen_interface").innerHTML; 
-  if ( x=="0" && firstnum==true) {
+  if ( (x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "4";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "4";
@@ -266,8 +271,9 @@ function add4() {
 
 function add5() {
   var x = document.getElementById("screen_interface").innerHTML;
-  if ( x=="0" && firstnum==true) {
+  if ( (x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "5";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "5";
@@ -279,8 +285,9 @@ function add5() {
 }
 function add6() {
  var x = document.getElementById("screen_interface").innerHTML;
-  if ( x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true)|| endop==true) {
      document.getElementById("screen_interface").innerHTML = "6";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "6";
@@ -292,8 +299,9 @@ function add6() {
 }
 function add7() {
   var x = document.getElementById("screen_interface").innerHTML;
-  if ( x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "7";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "7";
@@ -305,8 +313,9 @@ function add7() {
 }
 function add8() {
   var x = document.getElementById("screen_interface").innerHTML;
-  if (x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "8";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "8";
@@ -318,8 +327,9 @@ function add8() {
 }
 function add9() {
  var x = document.getElementById("screen_interface").innerHTML;
-  if (x=="0" && firstnum==true) {
+  if ((x=="0" && firstnum==true) || endop==true) {
      document.getElementById("screen_interface").innerHTML = "9";
+     endop=false;
   }
   else if (operandused==true && firstnum==true) {
     document.getElementById("screen_interface").innerHTML = "9";
