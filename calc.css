@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+}
+
+#screen_interface {
+  text-align:right;
+  margin-right:40px;
+  margin-top:1px;
+  font-style:normal;
+}
+
+#operator {
+  position:relative;
+  margin-top:-10px;
+  text-align:center;
+  font-style: normal;
+  font-size:50%;
+}
+
+
+.screen{
+  background-color:#F0FACA;
+  width: 290px;
+  margin-left:30px;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:80px;
+  border-radius: 12px;
+  font-family:Helvetica;
+  font-weight:normal;
+  font-size: 160%;
+  border-style: outset;
+  border-color:#D3D3D3;
+}
+
+.background{
+    background: linear-gradient(0deg, #AFAFAF, #CFCFCF);
+    width: 360px;
+    height:430px;
+    position:relative;
+    padding-top:2px;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6{
+    color: #B1B1B1;
+    width: 500px;
+    height:50px;
+    position:relative;
+    margin-left:24px;
+}
+
+
+button {
+  color:black;
+  background-color:#D3D3D3;
+  margin-top:2px;
+  margin-bottom:2px;
+  width:70px;
+  height:50px;
+  font-family:Helvetica;
+  text-align:center;
+  font-size: 150%;
+  border-radius: 14px;
+  
+}
+
+button:hover {
+  background-color:#B5A7F1;
+  font-weight: bold
+}
+
+#equalbutton {
+ /*padding-bottom:45px;*/
+  display: table-cell;
+  vertical-align: top;
+  padding-top:60px;
+  height:100px;
+}
+
+#equalbutton:hover {
+  background-color:#654FC9;
+}
+
+#zerobutton {
+  //padding-right:126px;
+  width:148px;
+  text-align: center;
+}
